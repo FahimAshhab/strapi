@@ -2,7 +2,7 @@
   "openapi": "3.0.0",
   "info": {
     "version": "1.0.0",
-    "title": "DOCUMENTATION",
+    "title": "SB DOCUMENTATION",
     "description": "",
     "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
     "contact": {
@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-02-15T12:54:49.511Z"
+    "x-generation-date": "2024-02-15T14:30:35.797Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -25,8 +25,16 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337/api",
+      "url": "http://localhost:1337",
+      "description": "local server"
+    },
+    {
+      "url": "https://shiftboolean.onrender.com",
       "description": "Development server"
+    },
+    {
+      "url": "production",
+      "description": "Production server"
     }
   ],
   "externalDocs": {
