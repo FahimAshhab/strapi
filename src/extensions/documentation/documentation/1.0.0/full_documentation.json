@@ -25,8 +25,16 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337/api",
+      "url": "http://localhost:1337",
       "description": "Development server"
+    },
+    {
+      "url": "https://shiftboolean.onrender.com",
+      "description": "Staging server"
+    },
+    {
+      "url": "Yhttps://shiftboolean.onrender.com",
+      "description": "Production server"
     }
   ],
   "externalDocs": {
