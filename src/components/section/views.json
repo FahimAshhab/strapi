@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_views",
+  "info": {
+    "displayName": "Views",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "Views": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "min": 0
+    }
+  }
+}
