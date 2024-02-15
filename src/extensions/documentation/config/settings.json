@@ -1,0 +1,45 @@
+{
+    "openapi": "3.0.0" ,// Do not change this version
+    "info": {
+      "version": "1.0.0", // Change this line to create a new version
+       "title": "DOCUMENTATION",
+      "description": "",
+      "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
+      "contact": {
+        "name": "TEAM",
+        "email": "contact-email@something.io",
+        "url": "mywebsite.io"
+      },
+      "license": {
+        "name": "Apache 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    },
+    "x-strapi-config": {
+      "path": "/documentation", // Change this line to change to url of the doc
+      "showGeneratedFiles": true
+    },
+    "servers" :[ // Your servers configuration you can add as many as you want
+      {
+        "url": "http://localhost:1337",
+        "description": "Development server"
+      },
+      {
+        "url": "https://shiftboolean.onrender.com",
+        "description": "Staging server"
+      },
+      {
+        "url": "Yhttps://shiftboolean.onrender.com",
+        "description": "Production server"
+      }
+    ],
+    "externalDocs": {
+      "description": "Find out more",
+      "url": "https://strapi.io/documentation/3.0.0-alpha.x/"
+    },
+    "security": [ // This field is important to add your jwt token in the SWAGGER UI
+      {
+        "bearerAuth": []
+      }
+    ]
+}

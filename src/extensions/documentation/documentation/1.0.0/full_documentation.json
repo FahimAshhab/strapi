@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-02-15T15:44:11.989Z"
+    "x-generation-date": "2024-02-15T16:59:15.492Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -25,16 +25,8 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337",
+      "url": "http://localhost:1337/api",
       "description": "Development server"
-    },
-    {
-      "url": "https://shiftboolean.onrender.com",
-      "description": "Staging server"
-    },
-    {
-      "url": "https://shiftboolean.onrender.com",
-      "description": "Production server"
     }
   ],
   "externalDocs": {
